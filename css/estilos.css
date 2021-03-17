@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: "Open sans", Arial,  sans-serif;
+    font-size: 16px;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*----------------------- HEADER -----------------------*/
+
+header {
+    width: 100%;
+    background: url('../img/bg.jpg') #281a0c;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: ; */
+    background-position: center 0;
+}
+header .container {
+    position: relative;
+    height: 700px;
+}
+header .menu {
+
+}
+header .menu ul{
+    list-style: none;
+    text-align: right;
+    width: 100%;
+}
+header .menu ul li{
+    display: inline-block;
+}
+header .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px 20px;
+    position: relative;
+}
+header .menu a:hover{
+    text-decoration: underline;
+}
+header .texts{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+}
+header .texts .name {
+    font-size: 50px;
+    font-weight: 600;
+}
+header .texts .name span {
+    font-weight: 300;
+}
+header .texts h3 {
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/*-------------------Main--------------------------*/
+.main {
+    background: url('../img/bg-textura.png');
+    background-repeat: repeat;
+}
+.main .about .container {
+    overflow: visible;
+    position: relative;
+    /* z-index: -2; */
+}
+.main .about .photo{
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .53);
+}
+.main .about .photo img{
+    vertical-align: top;
+    width: 100%;
+}
+.main .about article {
+    position: relative;
+    background: #fff;
+    width: 50%;
+    padding: 40px;
+    top: 150px;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .53);
+    float: right;
+}
+
+.main .about article h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.main .about article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+
+}
